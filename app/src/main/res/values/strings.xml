@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstProgramm</string>
+    <string name="btn_catalog">Каталог</string>
+    <string name="btn_constructor">Конструктор</string>
+</resources>
