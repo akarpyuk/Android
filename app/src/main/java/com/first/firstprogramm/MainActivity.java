@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.squareup.picasso.Picasso;
+
 public class MainActivity extends Activity {
 
     private ImageView mainImage;
@@ -21,5 +23,6 @@ public class MainActivity extends Activity {
         btnConstructor = findViewById(R.id.btn_constructor);
 
         mainImage = findViewById(R.id.main_image);
+        Picasso.with(this).load("http://i.imgur.com/DvpvklR.png").into(mainImage);
     }
 }
