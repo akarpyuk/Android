@@ -18,30 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".fragment.CatalogActivity"
+            android:label="categories"/>
 
-        <!--&lt;!&ndash; CatalogActivity &ndash;&gt;
-        <activity android:name="">
-
-        </activity>
-
-        &lt;!&ndash; CategoryActivity &ndash;&gt;
-        <activity android:name="">
-
-        </activity>
-
-        &lt;!&ndash; ConstructorActivity &ndash;&gt;
-        <activity android:name="">
-
-        </activity>
-
-        &lt;!&ndash; CartActivity &ndash;&gt;
-        <activity android:name="">
-
-        </activity>
-
-        &lt;!&ndash; OrderActivity &ndash;&gt;
-        <activity android:name="">
-
-        </activity>-->
     </application>
 </manifest>
