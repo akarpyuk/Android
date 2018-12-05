@@ -36,8 +36,8 @@ public class CatalogActivity extends AppCompatActivity{
     }
 
     private void createMockCategoriesData(){
-        data.add(new CategoriesDTO("Item 1"));
-        data.add(new CategoriesDTO("Item 2"));
-        data.add(new CategoriesDTO("Item 3"));
+        data.add(new CategoriesDTO("Печенька", 10, R.drawable.ic_launcher_background));
+        data.add(new CategoriesDTO("Пироженка", 20, R.drawable.ic_launcher_background));
+        data.add(new CategoriesDTO("Тортик", 40, R.drawable.ic_launcher_background));
     }
 }
